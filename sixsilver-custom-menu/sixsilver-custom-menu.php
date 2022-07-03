@@ -9,9 +9,10 @@
 
 function sixsilverMenu()
 {
-    // if(wp_is_mobile())
-        include('mobile/mobile.php');
-    // else if(!wp_is_mobile())
-        include('desktop/desktop.php');
+    //include files only when needed
+    if(wp_is_mobile())
+        include_once('mobile/mobile.php');
+    else
+        include_once('desktop/desktop.php');
 }
 add_action('x_after_site_begin', 'sixsilverMenu', 100);

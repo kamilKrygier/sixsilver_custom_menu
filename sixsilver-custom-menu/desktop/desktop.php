@@ -1,6 +1,4 @@
 <?php 
-if(!wp_is_mobile())
-{
     //  wp_enqueue_style( 'Desktop-menu-stylesheet', plugin_dir_url( __DIR__ ).'desktop/desktop_style.css' ); 
 include_once('desktop_style.php');
 ?>
@@ -344,4 +342,3 @@ include_once('desktop_style.php');
 <?php
     if(is_user_logged_in())
         echo '<style>#six_navigation_wrapper{top:32px;}</style>';
-}
