@@ -9,5 +9,5 @@ Navigation can be seen at: [sixsilver.pl](https://sixsilver.pl/)
 3. Most of those URLs will break after domain or path change. I know my fault. I found it that I could do it much better after I did it. That will be fixed in future.
 4. "[fibosearch]" is shortcode from [fibosearch plugin](https://fibosearch.com/)
 5. Other used plugin:
-..* [side cart plugin](https://xootix.com/plugins/side-cart-for-woocommerce/)
-..* [Woocommerce filter plugin](https://products-filter.com/)
+* [side cart plugin](https://xootix.com/plugins/side-cart-for-woocommerce/)
+* [Woocommerce filter plugin](https://products-filter.com/)
